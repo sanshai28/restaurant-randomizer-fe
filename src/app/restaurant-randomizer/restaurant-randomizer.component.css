@@ -1,0 +1,67 @@
+/* Style the main container */
+div {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style headings */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style input fields and buttons */
+  input[type="text"], button {
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style the list of restaurant choices */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+  }
+  
+  /* Style the "Remove" button within list items */
+  li button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Style the buttons for submitting and requesting a random restaurant */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the section displaying the random restaurant */
+  h3 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Style the random restaurant text */
+  p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  /* Add more styles as needed for your project's design */
+  

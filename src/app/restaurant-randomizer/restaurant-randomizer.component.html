@@ -1,0 +1,19 @@
+<div class="restaurant-container">
+    <h2>Restaurant Randomizer</h2>
+  
+    <!-- Input field for entering a restaurant name -->
+    <input type="text" [(ngModel)]="restaurantName" placeholder="Enter a restaurant name">
+  
+    <!-- Button to submit a restaurant name -->
+    <button (click)="submitRestaurant()">Submit Restaurant</button>
+  
+    <!-- Button to request a random restaurant -->
+    <button (click)="getRandomRestaurant()">Get Random Restaurant</button>
+  
+    <!-- Display the random restaurant -->
+    <div *ngIf="randomRestaurant" class="random-restaurant">
+      <h3>Random Restaurant:</h3>
+      <p>{{ randomRestaurant }}</p>
+    </div>
+  </div>
+  
